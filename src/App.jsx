@@ -29,7 +29,6 @@ function App() {
     const hasBeenClicked = clickedCharacters.some((id) => id === characterId);
 
     if (hasBeenClicked) {
-      console.log("you lost the game");
       setCharacters((prev) => shuffle(prev));
       setScore(0);
       setClickedCharacters([]);
