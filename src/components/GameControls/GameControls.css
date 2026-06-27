@@ -1,0 +1,35 @@
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btnHowTo {
+  background-color: var(--bg-cards);
+  color: var(--text);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.btnReset {
+  background-color: var(--accent);
+  transition: background 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p,
+  i {
+    color: var(--bg-cards);
+  }
+}
+
+.btnReset:hover {
+  background: var(--accent-hover);
+}

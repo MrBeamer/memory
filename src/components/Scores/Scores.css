@@ -1,0 +1,33 @@
+.scoresContainer {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background-color: var(--bg-cards);
+  padding: 1rem 1.25rem;
+  width: 180px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.score,
+.highscore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.highscore {
+  padding-top: 10px;
+}
+
+.label {
+  font-size: 13px;
+}
+
+.number {
+  font-size: 24px;
+}
